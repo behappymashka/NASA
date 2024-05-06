@@ -21,5 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: List node_modules contents
+        run: ls node_modules
+
       - name: Build project
         run: echo "Your build command here"
