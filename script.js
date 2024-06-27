@@ -35,9 +35,6 @@ function loadInfo() {
                 const readMoreBtn = document.createElement('button');
                 readMoreBtn.textContent = 'Подробнее';
                 readMoreBtn.classList.add('btn', 'btn-info', 'mt-2');
-                readMoreBtn.style.backgroundColor = 'transparent';
-                readMoreBtn.style.color = '#030303';
-                readMoreBtn.style.borderColor = '#3c3c3d';
                 readMoreBtn.addEventListener('click', () => {
                     if (!cardBody.querySelector('.description')) {
                         const description = document.createElement('p');
